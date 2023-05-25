@@ -1,0 +1,504 @@
+body {
+  font-family: Forum,"Book Antiqua",serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #3B181E;
+  background-image: 
+    linear-gradient(to bottom, transparent 850px,/* transparent 900px,*/ #3B181E 950px, #3B181E 1000px),
+    url("../img/main-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.15em;
+}
+
+
+body a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.page-header {
+  margin-bottom: 40px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 90px 95px;
+}
+
+.main-nav a {
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+}
+
+.logo {
+  width: 137px;
+  height: 42px;
+  margin: 0;
+  /* margin-right: 80px; */
+  justify-content: left;
+}
+
+.site-navigation  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  /* margin-right: 270px; */
+  list-style: none;
+  max-width: 1435px;
+}
+
+.site-navigation-item {
+  margin-right: 60px;
+}
+
+.site-navigation-item:last-child {
+  margin-right: 0;
+}
+
+.phone {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: end;
+  justify-content: end;
+  /* margin-left: 270px; */
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 120px;
+  line-height: 132.48px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+
+.intro-button {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  font-size: 12px;
+  line-height: 13px;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.15em;
+  padding: 18px 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-contacts-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 95px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.hero-contacts {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-contacts-container {
+  position: relative;
+  bottom: 100px;
+}
+
+.catalog-of-services {
+  display: flex;
+  flex-direction: column;
+  margin: 140px auto 0 auto;
+  padding: 0;
+  background-image: url("../img/catalog-of-services-background.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-y: 3%;
+  background-position-x: center;
+}
+
+.catalog-of-services h2 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 33px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-of-services h2::after {
+  content: "";
+  position: relative;
+  bottom: -22px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 85.5px;
+  height: 1px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.catalog-container ul {
+  display: flex; 
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 40px;
+  margin: 115px 200px 0 200px;
+  padding: 0;
+  list-style: none;
+}
+
+
+.catalog li {
+  box-sizing: border-box;
+  width: 350px;
+  margin: 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  margin: 0;
+}
+
+.catalog li:nth-child(1) {
+  height: 365px;
+}
+
+.catalog li:nth-child(2) {
+  height: 752px;
+}
+
+.catalog li:nth-child(3) {
+  height: 512px;
+}
+
+.catalog li:nth-child(7) {
+  height: 512px;
+}
+
+.catalog li:nth-child(4) {
+  height: 288px;
+}
+
+.catalog li:nth-child(6) {
+  height: 288px;
+}
+
+.catalog li:nth-child(5) {
+  height: 387px;
+}
+
+.stocks {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 225px auto 0 auto;
+  padding: 0;
+}
+
+.stocks-content {
+  display: flex;
+  flex-direction: column;
+  width: 475px;
+  height: 380px;
+  margin-right: 78px;
+  padding: 0;
+}
+
+.stocks-content h3 {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: 0.09em;
+  text-align: left;
+  margin-top: 42px;
+  margin-bottom: 56px;
+}
+
+.stocks-content h3::after {
+  content: "";
+  position: relative;
+  bottom: -31px;
+  margin-left: 0;
+  display: block;
+  width: 85.5px;
+  height: 1px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.stocks-content p {
+  text-transform: none;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  letter-spacing: normal;
+}
+
+.stocks-button,
+.compositions-button {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 220px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.15em;
+  padding: 18px 0;
+}
+
+.stocks-content div {
+  justify-content:left;
+  align-items: center;
+}
+
+.compositions {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 270px 95px 0 95px;
+  padding: 0;
+}
+
+.compositions img {
+  margin-right: 105px;
+}
+
+.compositions-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  height: 610px;
+  width: 615px;
+  margin-top: 120px;
+}
+
+.compositions-content h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: 0.09em;
+  margin: 0;
+  margin-bottom: 55px;
+}
+
+.compositions-content h3::after {
+  content: "";
+  position: relative;
+  bottom: -31px;
+  margin-left: auto;
+  margin-right: 0;
+  display: block;
+  width: 85.5px;
+  height: 1px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.compositions-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 30px;
+}
+
+.compositions-content div {
+  justify-content: right;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.compositions-gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.compositions-gallery li {
+  width: 123px;
+  height: 123px;
+}
+
+.compositions-content div a {
+  width: 123px;
+}
+
+.gift-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 245px auto 0 auto;
+  padding: 0;
+}
+
+.gift-cards h2 {
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: 0.06em;
+  margin: 0;
+  margin-bottom: 80px;
+}
+
+.gift-cards h2::after {
+  content: "";
+  position: relative;
+  bottom: -22px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 85.5px;
+  height: 1px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.gift-cards-content ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.providers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 270px auto 195px auto;
+  width: 1176px;
+  padding: 0;
+}
+
+.providers h2 {
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: 0.06em;
+  margin: 0;
+  margin-bottom: 80px;
+}
+
+.providers h2::after {
+  content: "";
+  position: relative;
+  bottom: -22px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 85.5px;
+  height: 1px;
+  background-color: #fff;
+  text-align: center;
+}
+
+
+.providers-content {
+  display: flex;
+  width: 1180px;
+}
+
+.providers-items {
+  display: flex;
+  gap: 34px;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-container {
+  display: flex;
+  margin: 20px auto 0 auto;
+  padding: 0;
+  justify-content: center;
+}
+
+.footer-navigation-topics {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.footer-navigation-item a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: none;
+  letter-spacing:normal;
+}
+
+.footer-contacts {
+  display: flex;
+  margin: 30px auto 65px auto;
+  padding: 0;
+  justify-content: center;
+}
+
+.footer-contacts-items {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 50px;
+  flex-wrap: wrap;
+}
